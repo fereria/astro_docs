@@ -5,7 +5,7 @@ import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({
-	//base:'/astro_docs',
+	base:'/astro_docs',
 	outDir:'./docs',
 	integrations: [
 		// Enable Preact to support Preact JSX components.
@@ -14,5 +14,5 @@ export default defineConfig({
 		react(),
 		vue()
 	],
-	site: `https://fereria.github.io/astro_docs`
+	site: `https://fereria.github.io/astro_docs/`
 });
