@@ -14,5 +14,5 @@ export default defineConfig({
 		react(),
 		vue()
 	],
-	site: `https://fereria.github.io`
+	site: `https://fereria.github.io/astro_docs`
 });
