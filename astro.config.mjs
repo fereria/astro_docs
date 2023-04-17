@@ -15,4 +15,5 @@ export default defineConfig({
   // Enable React for the Algolia search component.
   react(),
    vue()],
+  site: `https://fereria.github.io/astro_docs`
 });
